@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang="tg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BekMebel - Саҳифаи асосӣ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    body {
+      background-color: #fefefe;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #2e2e2e, #4b4b4b);
+      color: #fff;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      font-weight: bold;
+      color: #f9d342;
+    }
+
+    nav a {
+      margin-left: 25px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #f9d342;
+    }
+
+    .hero {
+      background-image: url('hero.jpg'); /* Акси баннери асосиро иваз намо */
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      font-family: 'Playfair Display', serif;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .section {
+      padding: 60px 50px;
+    }
+
+    .section h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .product {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 10px;
+      background-color: #fff;
+      transition: 0.3s;
+    }
+
+    .product:hover {
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .product h3 {
+      margin: 10px 0;
+      font-size: 20px;
+    }
+
+    .footer {
+      background-color: #2e2e2e;
+      color: #ccc;
+      text-align: center;
+      padding: 30px 0;
+      margin-top: 60px;
+    }
+
+    .btn {
+      background-color: #f9d342;
+      color: #2e2e2e;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: #ffe670;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">BekMebel</div>
+    <nav>
+      <a href="#">Асосӣ</a>
+      <a href="#">Маҳсулот</a>
+      <a href="#">Дар бораи мо</a>
+      <a href="#">Тамос</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Мебели замонавӣ ва классикӣ барои хонаи шумо</h1>
+  </section>
+
+  <section class="section">
+    <h2>Моделҳои тавсияшуда</h2>
+    <div class="products">
+      <div class="product">
+        <img src="model8080.jpg" alt="Модел 8080" />
+        <h3>Модел 8080</h3>
+        <p>Маҷмӯаи хоб бо услуби замонавӣ</p>
+        <a href="#" class="btn">Бештар</a>
+      </div>
+      <div class="product">
+        <img src="model7070.jpg" alt="Модел 7070" />
+        <h3>Модел 7070</h3>
+        <p>Дизайни классикӣ бо матоъи барҷаста</p>
+        <a href="#" class="btn">Бештар</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    © 2025 BekMebel. Ҳамаи ҳуқуқ маҳфуз аст.
+  </footer>
+
+</body>
+</html> 
+ 
